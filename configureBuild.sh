@@ -207,7 +207,7 @@ setRepository() {
     suffix="adoptium/${githubRepoName}"
   elif [[ "${BUILD_CONFIG[BUILD_VARIANT]}" == "dcevm" ]]
   then
-    suffix="HotswapProjects/openjdk-${BUILD_CONFIG[OPENJDK_FOREST_NAME]}-dcevm";
+    suffix="SyedAnas26/openjdk-${BUILD_CONFIG[OPENJDK_FOREST_NAME]}-dcevm";
   else
     suffix="openjdk/${githubRepoName}"
   fi
